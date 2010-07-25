@@ -11,7 +11,7 @@
  <playlist id="black_track">
   <entry in="0" out="2629" producer="black"/>
  </playlist>
- <producer in="0" out="494" id="9_4">
+ <producer in="0" out="494" id="9_1">
   <property name="mlt_type">producer</property>
   <property name="aspect_ratio">0.000000</property>
   <property name="length">495</property>
@@ -35,11 +35,61 @@
   <property name="video_index">-1</property>
   <property name="mlt_service">avformat</property>
  </producer>
+ <producer in="0" out="520" id="13_1">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0.000000</property>
+  <property name="length">1102</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/DaveLion/Resources/Hammock Fight.mp3</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">mp3</property>
+  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+  <property name="meta.media.0.codec.bit_rate">320000</property>
+  <property name="seekable">1</property>
+  <property name="meta.attr.title.markup">Hammock Fight</property>
+  <property name="meta.attr.author.markup">Kevin MacLeod</property>
+  <property name="meta.attr.copyright.markup"/>
+  <property name="meta.attr.comment.markup"/>
+  <property name="meta.attr.album.markup"/>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
  <playlist id="playlist0">
-  <blank length="519"/>
-  <entry in="0" out="456" producer="9_4"/>
+  <blank length="802"/>
+  <entry in="0" out="230" producer="9_1"/>
+  <blank length="12"/>
+  <entry in="7" out="590" producer="13_1"/>
  </playlist>
- <producer in="0" out="151" id="7_4">
+ <producer in="0" out="494" id="9_2">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0.000000</property>
+  <property name="length">495</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/DaveLion/Resources/Trouble.mp3</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">mp3</property>
+  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+  <property name="meta.media.0.codec.bit_rate">320000</property>
+  <property name="seekable">1</property>
+  <property name="meta.attr.title.markup">Trouble</property>
+  <property name="meta.attr.author.markup">Kevin MacLeod</property>
+  <property name="meta.attr.copyright.markup"/>
+  <property name="meta.attr.comment.markup"/>
+  <property name="meta.attr.album.markup"/>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="50" id="7_2">
   <property name="mlt_type">producer</property>
   <property name="aspect_ratio">0.000000</property>
   <property name="length">152</property>
@@ -64,30 +114,6 @@
   <property name="mlt_service">avformat</property>
  </producer>
  <producer in="0" out="151" id="7_3">
-  <property name="mlt_type">producer</property>
-  <property name="aspect_ratio">0.000000</property>
-  <property name="length">152</property>
-  <property name="eof">pause</property>
-  <property name="resource">Videos/DaveLion/Resources/73553567.mp3</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s16</property>
-  <property name="meta.media.0.codec.sample_rate">44100</property>
-  <property name="meta.media.0.codec.channels">1</property>
-  <property name="meta.media.0.codec.name">mp3</property>
-  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">80000</property>
-  <property name="seekable">1</property>
-  <property name="meta.attr.title.markup"/>
-  <property name="meta.attr.author.markup"/>
-  <property name="meta.attr.copyright.markup"/>
-  <property name="meta.attr.comment.markup"/>
-  <property name="meta.attr.album.markup"/>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mlt_service">avformat</property>
- </producer>
- <producer in="0" out="151" id="7_2">
   <property name="mlt_type">producer</property>
   <property name="aspect_ratio">0.000000</property>
   <property name="length">152</property>
@@ -136,9 +162,10 @@
   <property name="mlt_service">avformat</property>
  </producer>
  <playlist id="playlist1">
-  <blank length="770"/>
-  <entry in="0" out="151" producer="7_4"/>
-  <blank length="432"/>
+  <blank length="612"/>
+  <entry in="0" out="494" producer="9_2"/>
+  <entry in="0" out="151" producer="7_2"/>
+  <blank length="95"/>
   <entry in="0" out="46" producer="7_3"/>
   <blank length="38"/>
   <entry in="0" out="41" producer="7_3"/>
@@ -147,34 +174,10 @@
   <blank length="25"/>
   <entry in="29" out="47" producer="7_2"/>
   <blank length="23"/>
-  <entry in="29" out="41" producer="7_2"/>
-  <blank length="100"/>
+  <entry in="29" out="78" producer="7_2"/>
+  <blank length="63"/>
   <entry in="240" out="301" producer="4_3"/>
  </playlist>
- <producer in="0" out="1101" id="13_1">
-  <property name="mlt_type">producer</property>
-  <property name="aspect_ratio">0.000000</property>
-  <property name="length">1102</property>
-  <property name="eof">pause</property>
-  <property name="resource">Videos/DaveLion/Resources/Hammock Fight.mp3</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s16</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">mp3</property>
-  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">320000</property>
-  <property name="seekable">1</property>
-  <property name="meta.attr.title.markup">Hammock Fight</property>
-  <property name="meta.attr.author.markup">Kevin MacLeod</property>
-  <property name="meta.attr.copyright.markup"/>
-  <property name="meta.attr.comment.markup"/>
-  <property name="meta.attr.album.markup"/>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mlt_service">avformat</property>
- </producer>
  <producer in="0" out="852" id="10_3">
   <property name="mlt_type">producer</property>
   <property name="aspect_ratio">0.000000</property>
@@ -200,23 +203,56 @@
   <property name="mlt_service">avformat</property>
  </producer>
  <playlist id="playlist2">
-  <blank length="519"/>
+  <blank length="1007"/>
   <entry in="0" out="352" producer="4_3"/>
-  <blank length="422"/>
-  <entry in="7" out="70" producer="13_1"/>
-  <blank length="40"/>
-  <entry in="71" out="110" producer="13_1"/>
-  <blank length="43"/>
-  <entry in="111" out="135" producer="13_1"/>
-  <blank length="29"/>
-  <entry in="136" out="160" producer="13_1"/>
-  <blank length="19"/>
-  <entry in="161" out="183" producer="13_1"/>
-  <blank length="13"/>
-  <entry in="184" out="287" producer="13_1"/>
-  <blank length="58"/>
+  <blank length="417"/>
   <entry in="0" out="852" producer="10_3"/>
  </playlist>
+ <producer in="0" out="352" id="4_4">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0.000000</property>
+  <property name="length">353</property>
+  <property name="eof">pause</property>
+  <property name="resource">Music/lion.mp3</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">mp3</property>
+  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="seekable">1</property>
+  <property name="meta.attr.title.markup">Lion roar</property>
+  <property name="meta.attr.author.markup">Lion Roar</property>
+  <property name="meta.attr.copyright.markup"/>
+  <property name="meta.attr.comment.markup"/>
+  <property name="meta.attr.album.markup">101 Digital Sound Effects - so</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="125" id="20">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0.000000</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1280" height="720" out="125">
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="296" y="239">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="90" font-italic="0" font-underline="0" font-weight="50" font="URW Chancery L">“Ah ha! I have him!”&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1280,720"/>
+ &lt;endviewport rect="0,0,1280,720"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+ </producer>
  <producer in="0" out="1014" id="1">
   <property name="mlt_type">producer</property>
   <property name="aspect_ratio">1.000000</property>
@@ -243,30 +279,6 @@
   <property name="video_index">0</property>
   <property name="mlt_service">avformat</property>
   <property name="source_fps">60.000000</property>
- </producer>
- <producer in="0" out="352" id="4_2">
-  <property name="mlt_type">producer</property>
-  <property name="aspect_ratio">0.000000</property>
-  <property name="length">353</property>
-  <property name="eof">pause</property>
-  <property name="resource">Music/lion.mp3</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s16</property>
-  <property name="meta.media.0.codec.sample_rate">44100</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">mp3</property>
-  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="seekable">1</property>
-  <property name="meta.attr.title.markup">Lion roar</property>
-  <property name="meta.attr.author.markup">Lion Roar</property>
-  <property name="meta.attr.copyright.markup"/>
-  <property name="meta.attr.comment.markup"/>
-  <property name="meta.attr.album.markup">101 Digital Sound Effects - so</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mlt_service">avformat</property>
  </producer>
  <producer in="0" out="211" id="14">
   <property name="mlt_type">producer</property>
@@ -360,32 +372,10 @@
   <property name="mlt_service">pixbuf</property>
  </producer>
  <playlist id="playlist3">
-  <blank length="679"/>
-  <entry in="510" out="555" producer="1">
-   <filter id="affine">
-    <property name="track">0</property>
-    <property name="background">colour:black</property>
-    <property name="mlt_type">filter</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">affine</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="transition.fix_rotate_x">90</property>
-    <property name="transition.fix_rotate_y">0</property>
-    <property name="transition.fix_rotate_z">0</property>
-    <property name="transition.rotate_x">0</property>
-    <property name="transition.rotate_y">0</property>
-    <property name="transition.rotate_z">0</property>
-    <property name="transition.fix_shear_x">0</property>
-    <property name="transition.fix_shear_y">0</property>
-    <property name="transition.shear_x">0</property>
-    <property name="transition.shear_y">0</property>
-    <property name="transition.geometry">0,0:1280x720:100</property>
-   </filter>
-  </entry>
-  <blank length="397"/>
-  <entry in="0" out="176" producer="4_2"/>
-  <blank length="416"/>
+  <blank length="527"/>
+  <entry in="0" out="81" producer="4_4"/>
+  <blank length="1043"/>
+  <entry in="63" out="125" producer="20"/>
   <entry in="650" out="779" producer="1">
    <filter id="filter0">
     <property name="track">0</property>
@@ -534,8 +524,31 @@
   <property name="source_fps">60.000000</property>
  </producer>
  <playlist id="playlist4">
-  <blank length="148"/>
+  <blank length="527"/>
   <entry in="0" out="81" producer="2">
+   <filter id="affine">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">-90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
+  <blank length="96"/>
+  <entry in="493" out="542" producer="1">
    <filter id="filter4">
     <property name="track">0</property>
     <property name="background">colour:black</property>
@@ -544,7 +557,7 @@
     <property name="kdenlive_id">affine</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.fix_rotate_x">-90</property>
+    <property name="transition.fix_rotate_x">90</property>
     <property name="transition.fix_rotate_y">0</property>
     <property name="transition.fix_rotate_z">0</property>
     <property name="transition.rotate_x">0</property>
@@ -557,33 +570,11 @@
     <property name="transition.geometry">0,0:1280x720:100</property>
    </filter>
   </entry>
-  <blank length="305"/>
+  <blank length="117"/>
   <entry in="0" out="143" producer="3"/>
-  <blank length="46"/>
-  <entry in="166" out="562" producer="3"/>
-  <entry in="0" out="176" producer="2">
-   <filter id="filter6">
-    <property name="track">0</property>
-    <property name="background">colour:black</property>
-    <property name="mlt_type">filter</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">affine</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="transition.fix_rotate_x">-90</property>
-    <property name="transition.fix_rotate_y">0</property>
-    <property name="transition.fix_rotate_z">0</property>
-    <property name="transition.rotate_x">0</property>
-    <property name="transition.rotate_y">0</property>
-    <property name="transition.rotate_z">0</property>
-    <property name="transition.fix_shear_x">0</property>
-    <property name="transition.fix_shear_y">0</property>
-    <property name="transition.shear_x">0</property>
-    <property name="transition.shear_y">0</property>
-    <property name="transition.geometry">0,0:1280x720:100</property>
-   </filter>
-  </entry>
-  <blank length="60"/>
+  <blank length="134"/>
+  <entry in="304" out="445" producer="3"/>
+  <blank length="67"/>
   <entry in="333" out="374" producer="2">
    <filter id="filter7">
     <property name="track">0</property>
@@ -834,15 +825,82 @@ A Hero approaches...&lt;/content>
 </property>
   <property name="force_reload">0</property>
  </producer>
+ <producer in="0" out="125" id="19">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0.000000</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1280" height="720" out="125">
+ &lt;item z-index="2" type="QGraphicsTextItem">
+  &lt;position x="147" y="301">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-outline-color="0,0,0,255" font-pixel-size="90" font-italic="0" font-underline="0" font-weight="50" font="URW Chancery L" font-outline="0">“Behave, you uncouth animal!”&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1280,720"/>
+ &lt;endviewport rect="0,0,1280,720"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+ </producer>
  <playlist id="playlist5">
-  <blank length="22"/>
+  <blank length="401"/>
   <entry in="0" out="125" producer="16"/>
   <blank length="82"/>
   <entry in="0" out="95" producer="17"/>
-  <blank length="227"/>
-  <entry in="0" out="125" producer="18"/>
-  <blank length="620"/>
-  <entry in="532" out="591" producer="1">
+  <blank length="50"/>
+  <entry in="8" out="124" producer="18"/>
+  <blank length="135"/>
+  <entry in="0" out="37" producer="2">
+   <filter id="filter5">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">-90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
+  <entry in="510" out="555" producer="1">
+   <filter id="filter6">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
+  <entry in="0" out="58" producer="19"/>
+  <blank length="142"/>
+  <entry in="525" out="591" producer="1">
    <filter id="filter15">
     <property name="track">0</property>
     <property name="background">colour:black</property>
@@ -1058,7 +1116,7 @@ A Hero approaches...&lt;/content>
   </transition>
  </tractor>
  <kdenlivedoc profile="hdv_720_25p" kdenliveversion="0.7.7.1" version="0.85" projectfolder="/home/roberto/kdenlive">
-  <documentproperties zonein="0" zoneout="100" zoom="6" verticalzoom="1" renderdestination="" renderprofile="DV PAL 4:3" renderurl="/home/roberto/kdenlive/untitled.avi" position="2288" rendercategory="AVI DV"/>
+  <documentproperties zonein="0" zoneout="100" zoom="6" verticalzoom="1" renderdestination="" renderprofile="DV PAL 4:3" renderurl="/home/roberto/kdenlive/untitled.avi" position="1676" rendercategory="AVI DV"/>
   <profileinfo width="1280" display_aspect_den="9" frame_rate_den="1" description="HD 720p 25 fps" height="720" frame_rate_num="25" display_aspect_num="16" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
   <tracksinfo>
    <trackinfo blind="1" mute="0" locked="0" trackname="" type="audio"/>
@@ -1085,6 +1143,8 @@ A Hero approaches...&lt;/content>
   <kdenlive_producer audio_max="0" channels="0" duration="126" transparency="1" default_audio="0" video_max="0" frame_size="1280x720" frequency="0" in="0" aspect_ratio="0.000000" out="125" xmldata="&lt;kdenlivetitle width=&quot;1280&quot; height=&quot;720&quot; out=&quot;125&quot;>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;254&quot; y=&quot;180&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-pixel-size=&quot;90&quot; font-italic=&quot;0&quot; alignment=&quot;4&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;URW Chancery L&quot;>Oh no! There's a Lion&#xa; loose&#xa;at the wedding!&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;background color=&quot;0,0,0,255&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="16" name="Title clip" default_video="0"/>
   <kdenlive_producer audio_max="0" channels="0" duration="126" transparency="1" default_audio="0" video_max="0" frame_size="1280x720" frequency="0" in="0" aspect_ratio="0.000000" out="125" xmldata="&lt;kdenlivetitle width=&quot;1280&quot; height=&quot;720&quot; out=&quot;125&quot;>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;305&quot; y=&quot;219.0625&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-pixel-size=&quot;90&quot; font-italic=&quot;0&quot; alignment=&quot;4&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;URW Chancery L&quot;>But wait!&#xa;A Hero approaches...&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;background color=&quot;0,0,0,255&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="17" name="Title clip" default_video="0"/>
   <kdenlive_producer audio_max="0" channels="0" duration="126" transparency="1" default_audio="0" video_max="0" frame_size="1280x720" frequency="0" in="0" aspect_ratio="0.000000" out="125" xmldata="&lt;kdenlivetitle width=&quot;1280&quot; height=&quot;720&quot; out=&quot;125&quot;>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;280&quot; y=&quot;297&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;90&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;URW Chancery L&quot; font-outline=&quot;0&quot;>Dave the Lion Tamer!&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;background color=&quot;0,0,0,255&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="18" name="Title clip" default_video="0"/>
+  <kdenlive_producer audio_max="0" channels="0" duration="126" transparency="1" default_audio="0" video_max="0" frame_size="1280x720" frequency="0" in="0" aspect_ratio="0.000000" out="125" xmldata="&lt;kdenlivetitle width=&quot;1280&quot; height=&quot;720&quot; out=&quot;125&quot;>&#xa; &lt;item z-index=&quot;2&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;147&quot; y=&quot;301&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;90&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;URW Chancery L&quot; font-outline=&quot;0&quot;>“Behave, you uncouth animal!”&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;background color=&quot;0,0,0,255&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="19" name="Title clip" default_video="0"/>
+  <kdenlive_producer audio_max="0" channels="0" duration="126" transparency="1" default_audio="0" video_max="0" frame_size="1280x720" frequency="0" in="0" aspect_ratio="0.000000" out="125" xmldata="&lt;kdenlivetitle width=&quot;1280&quot; height=&quot;720&quot; out=&quot;125&quot;>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;296&quot; y=&quot;239&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-pixel-size=&quot;90&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;URW Chancery L&quot;>“Ah ha! I have him!”&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;background color=&quot;0,0,0,255&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="20" name="Title clip" default_video="0"/>
   <markers/>
   <groups>
    <group>
