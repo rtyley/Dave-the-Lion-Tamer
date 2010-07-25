@@ -682,10 +682,31 @@
    </filter>
   </entry>
   <blank length="38"/>
-  <entry in="333" out="374" producer="2"/>
+  <entry in="333" out="374" producer="2">
+   <filter id="filter9">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">-90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
   <blank length="29"/>
   <entry in="333" out="372" producer="2">
-   <filter id="filter9">
+   <filter id="filter10">
     <property name="track">0</property>
     <property name="background">colour:black</property>
     <property name="mlt_type">filter</property>
@@ -708,29 +729,6 @@
   </entry>
   <blank length="24"/>
   <entry in="333" out="348" producer="2">
-   <filter id="filter10">
-    <property name="track">0</property>
-    <property name="background">colour:black</property>
-    <property name="mlt_type">filter</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">affine</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="transition.fix_rotate_x">-90</property>
-    <property name="transition.fix_rotate_y">0</property>
-    <property name="transition.fix_rotate_z">0</property>
-    <property name="transition.rotate_x">0</property>
-    <property name="transition.rotate_y">0</property>
-    <property name="transition.rotate_z">0</property>
-    <property name="transition.fix_shear_x">0</property>
-    <property name="transition.fix_shear_y">0</property>
-    <property name="transition.shear_x">0</property>
-    <property name="transition.shear_y">0</property>
-    <property name="transition.geometry">0,0:1280x720:100</property>
-   </filter>
-  </entry>
-  <blank length="12"/>
-  <entry in="333" out="342" producer="2">
    <filter id="filter11">
     <property name="track">0</property>
     <property name="background">colour:black</property>
@@ -752,7 +750,7 @@
     <property name="transition.geometry">0,0:1280x720:100</property>
    </filter>
   </entry>
-  <blank length="10"/>
+  <blank length="12"/>
   <entry in="333" out="342" producer="2">
    <filter id="filter12">
     <property name="track">0</property>
@@ -776,10 +774,54 @@
    </filter>
   </entry>
   <blank length="10"/>
-  <entry in="333" out="342" producer="2"/>
+  <entry in="333" out="342" producer="2">
+   <filter id="filter13">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">-90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
+  <blank length="10"/>
+  <entry in="333" out="342" producer="2">
+   <filter id="filter14">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">-90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
   <blank length="89"/>
   <entry in="333" out="357" producer="2">
-   <filter id="filter13">
+   <filter id="filter15">
     <property name="track">0</property>
     <property name="background">colour:black</property>
     <property name="mlt_type">filter</property>
@@ -897,7 +939,7 @@ A Hero approaches...&lt;/content>
   <entry in="8" out="124" producer="18"/>
   <blank length="135"/>
   <entry in="0" out="37" producer="2">
-   <filter id="filter14">
+   <filter id="filter16">
     <property name="track">0</property>
     <property name="background">colour:black</property>
     <property name="mlt_type">filter</property>
@@ -919,7 +961,7 @@ A Hero approaches...&lt;/content>
    </filter>
   </entry>
   <entry in="510" out="555" producer="1">
-   <filter id="filter15">
+   <filter id="filter17">
     <property name="track">0</property>
     <property name="background">colour:black</property>
     <property name="mlt_type">filter</property>
@@ -943,7 +985,7 @@ A Hero approaches...&lt;/content>
   <entry in="0" out="58" producer="19"/>
   <blank length="142"/>
   <entry in="525" out="591" producer="1">
-   <filter id="filter16">
+   <filter id="filter18">
     <property name="track">0</property>
     <property name="background">colour:black</property>
     <property name="mlt_type">filter</property>
@@ -965,17 +1007,143 @@ A Hero approaches...&lt;/content>
    </filter>
   </entry>
   <blank length="42"/>
-  <entry in="532" out="569" producer="1"/>
+  <entry in="532" out="569" producer="1">
+   <filter id="filter19">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
   <blank length="42"/>
-  <entry in="532" out="556" producer="1"/>
+  <entry in="532" out="556" producer="1">
+   <filter id="filter20">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
   <blank length="44"/>
-  <entry in="532" out="555" producer="1"/>
+  <entry in="532" out="555" producer="1">
+   <filter id="filter21">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
   <blank length="16"/>
-  <entry in="532" out="543" producer="1"/>
+  <entry in="532" out="543" producer="1">
+   <filter id="filter22">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
   <blank length="10"/>
-  <entry in="532" out="541" producer="1"/>
+  <entry in="532" out="541" producer="1">
+   <filter id="filter23">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
   <blank length="10"/>
-  <entry in="532" out="541" producer="1"/>
+  <entry in="532" out="541" producer="1">
+   <filter id="filter24">
+    <property name="track">0</property>
+    <property name="background">colour:black</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">affine</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.fix_rotate_x">90</property>
+    <property name="transition.fix_rotate_y">0</property>
+    <property name="transition.fix_rotate_z">0</property>
+    <property name="transition.rotate_x">0</property>
+    <property name="transition.rotate_y">0</property>
+    <property name="transition.rotate_z">0</property>
+    <property name="transition.fix_shear_x">0</property>
+    <property name="transition.fix_shear_y">0</property>
+    <property name="transition.shear_x">0</property>
+    <property name="transition.shear_y">0</property>
+    <property name="transition.geometry">0,0:1280x720:100</property>
+   </filter>
+  </entry>
  </playlist>
  <tractor title="Anonymous Submission" global_feed="1" in="0" out="2357" id="maintractor">
   <track producer="black_track"/>
@@ -1042,7 +1210,7 @@ A Hero approaches...&lt;/content>
   </transition>
  </tractor>
  <kdenlivedoc profile="hdv_720_25p" kdenliveversion="0.7.7.1" version="0.85" projectfolder="/home/roberto/kdenlive">
-  <documentproperties zonein="0" zoneout="100" zoom="2" verticalzoom="1" renderdestination="" renderprofile="DV PAL 4:3" renderurl="/home/roberto/kdenlive/untitled.avi" position="1405" rendercategory="AVI DV"/>
+  <documentproperties zonein="0" zoneout="100" zoom="8" verticalzoom="1" renderdestination="" renderprofile="DV PAL 4:3" renderurl="/home/roberto/kdenlive/untitled.avi" position="1647" rendercategory="AVI DV"/>
   <profileinfo width="1280" display_aspect_den="9" frame_rate_den="1" description="HD 720p 25 fps" height="720" frame_rate_num="25" display_aspect_num="16" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
   <tracksinfo>
    <trackinfo blind="1" mute="0" locked="0" trackname="" type="audio"/>
@@ -1074,18 +1242,18 @@ A Hero approaches...&lt;/content>
   <markers/>
   <groups>
    <group>
-    <clipitem track="3" position="1739"/>
-    <clipitem track="2" position="1807"/>
     <clipitem track="2" position="2122"/>
-    <clipitem track="2" position="1954"/>
-    <clipitem track="2" position="1677"/>
-    <clipitem track="2" position="1858"/>
-    <clipitem track="2" position="1652"/>
-    <clipitem track="2" position="2067"/>
+    <clipitem track="3" position="1739"/>
     <clipitem track="4" position="1677"/>
     <clipitem track="1" position="1741"/>
+    <clipitem track="2" position="1677"/>
+    <clipitem track="2" position="2067"/>
+    <clipitem track="2" position="1858"/>
     <clipitem track="2" position="1904"/>
+    <clipitem track="2" position="1807"/>
     <clipitem track="2" position="2011"/>
+    <clipitem track="2" position="1652"/>
+    <clipitem track="2" position="1954"/>
    </group>
   </groups>
  </kdenlivedoc>
