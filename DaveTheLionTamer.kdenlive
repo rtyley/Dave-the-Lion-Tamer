@@ -217,7 +217,7 @@
   <blank length="58"/>
   <entry in="0" out="852" producer="10_3"/>
  </playlist>
- <producer in="0" out="1014" id="1">
+ <producer in="0" out="497" id="1">
   <property name="mlt_type">producer</property>
   <property name="aspect_ratio">1.000000</property>
   <property name="length">1015</property>
@@ -557,30 +557,7 @@
     <property name="transition.geometry">0,0:1280x720:100</property>
    </filter>
   </entry>
-  <blank length="126"/>
-  <entry in="494" out="546" producer="1">
-   <filter id="filter5">
-    <property name="track">0</property>
-    <property name="background">colour:black</property>
-    <property name="mlt_type">filter</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">affine</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="transition.fix_rotate_x">90</property>
-    <property name="transition.fix_rotate_y">0</property>
-    <property name="transition.fix_rotate_z">0</property>
-    <property name="transition.rotate_x">0</property>
-    <property name="transition.rotate_y">0</property>
-    <property name="transition.rotate_z">0</property>
-    <property name="transition.fix_shear_x">0</property>
-    <property name="transition.fix_shear_y">0</property>
-    <property name="transition.shear_x">0</property>
-    <property name="transition.shear_y">0</property>
-    <property name="transition.geometry">0,0:1280x720:100</property>
-   </filter>
-  </entry>
-  <blank length="126"/>
+  <blank length="305"/>
   <entry in="0" out="143" producer="3"/>
   <blank length="46"/>
   <entry in="166" out="562" producer="3"/>
@@ -861,10 +838,10 @@ A Hero approaches...&lt;/content>
   <blank length="22"/>
   <entry in="0" out="125" producer="16"/>
   <blank length="82"/>
-  <entry in="0" out="125" producer="17"/>
-  <blank length="53"/>
+  <entry in="0" out="95" producer="17"/>
+  <blank length="227"/>
   <entry in="0" out="125" producer="18"/>
-  <blank length="764"/>
+  <blank length="620"/>
   <entry in="532" out="591" producer="1">
    <filter id="filter15">
     <property name="track">0</property>
@@ -1081,7 +1058,7 @@ A Hero approaches...&lt;/content>
   </transition>
  </tractor>
  <kdenlivedoc profile="hdv_720_25p" kdenliveversion="0.7.7.1" version="0.85" projectfolder="/home/roberto/kdenlive">
-  <documentproperties zonein="0" zoneout="100" zoom="6" verticalzoom="1" renderdestination="" renderprofile="DV PAL 4:3" renderurl="/home/roberto/kdenlive/untitled.avi" position="322" rendercategory="AVI DV"/>
+  <documentproperties zonein="0" zoneout="100" zoom="6" verticalzoom="1" renderdestination="" renderprofile="DV PAL 4:3" renderurl="/home/roberto/kdenlive/untitled.avi" position="2044" rendercategory="AVI DV"/>
   <profileinfo width="1280" display_aspect_den="9" frame_rate_den="1" description="HD 720p 25 fps" height="720" frame_rate_num="25" display_aspect_num="16" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
   <tracksinfo>
    <trackinfo blind="1" mute="0" locked="0" trackname="" type="audio"/>
